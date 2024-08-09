@@ -1,0 +1,20 @@
+# wrap_of_the_day.py
+
+import random
+
+# List of wraps
+wraps = [
+    "Chicken Caesar Wrap",
+    "Sweet Chili Wrap",
+    "Spicy Buffalo Wrap",
+    "Grilled Chicken Wrap",
+    "Crispy Chicken Wrap"
+]
+
+# Function to choose the Wrap of the Day
+def wrap_of_the_day():
+    return random.choice(wraps)
+
+# Display the Wrap of the Day
+print("Today's Wrap of the Day is:", wrap_of_the_day())
+print("Visit https://mcdwrapofthedays.co.uk/ for more delicious wraps!")
